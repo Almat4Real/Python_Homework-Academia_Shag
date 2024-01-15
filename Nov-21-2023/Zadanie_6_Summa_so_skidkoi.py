@@ -23,3 +23,15 @@ else:
     else:
         print("Ошибка! На такую сумму скидок нет!")
 print('Ваша сумма со скидкой составляет: ', total)
+
+
+"""VN: программа падает в последней строке:
+
+Укажите сумму покупки: mnogo
+Вы ввели текст!
+Traceback (most recent call last):
+  File "/home/vn/Job/ItStep/HomeWorks/SEP-232.1/Алмат/Nov-21-2023/Zadanie_6_Summa_so_skidkoi.py", line 25, in <module>
+    print('Ваша сумма со скидкой составляет: ', total)
+                                                ^^^^^
+NameError: name 'total' is not defined
+"""

@@ -12,6 +12,7 @@ except ValueError:
 else:
     try:
         convert = user_data2.upper()
+        #VN: upper() не вызывает исключения, можно без try
     except ValueError:
         print("Ошибка! Укажите валюту из списка!")
     else:
